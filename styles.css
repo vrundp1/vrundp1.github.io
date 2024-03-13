@@ -1,0 +1,130 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #e6d3d3;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.container {
+  margin: 0;
+  padding: 20px 40px; 
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile {
+  text-align: right;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.profile h1 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.profile p {
+  margin: 0;
+}
+
+
+section {
+  margin-bottom: 70px;
+  margin-top: 85px;
+}
+
+h2 {
+  margin-top: -40px;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.download-resume {
+  margin-top: 10px; 
+}
+
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 5px; 
+  color: #000;
+  font-size: 20px; 
+}
+
+.social-icons a:hover {
+  color: #007bff; 
+}
+
+section p {
+  margin-bottom: -25px; 
+}
+
+.highlight {
+  color: #4f4949; 
+  font-weight: bold;
+}
+
+
+.skill-container {
+  display: flex; 
+  padding: 0px 200px 0px 5px; 
+  margin-bottom: -70px;
+}
+
+
+.left-side, .right-side {
+  flex: 1; 
+  padding: 30px 15px; 
+}
+
+.left-side h3, .right-side h3 {
+  margin-top: -20px; 
+}
+
+.left-side ul, .right-side ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin-bottom: -10px; 
+}
+
+/* Style list items */
+.left-side li, .right-side li {
+  margin-bottom: 10px;
+  color: rgb(228, 103, 103); 
+  font-weight: bold;
+}
+
+.right-side {
+  padding-right: 600px; 
+}
+
+
+
+.project {
+  margin-bottom: 50px; 
+}
+
+.project-header {
+  display: flex;
+  align-items: center; 
+}
+
+.project-header h3 {
+  margin-right: 20px; 
+}
+
+.project-header a {
+  color: #2a2af1; 
+}
